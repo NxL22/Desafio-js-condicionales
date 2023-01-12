@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    background-image: url(../img/payaso.jpg);
+    background-position: 30em;
+    background-size: cover;
+}
+
+.container, a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 30vh;
+    font-weight: 900;
+    color: aliceblue;
+    background-color: black;
+}
+
+a:hover {
+    cursor: pointer;
+}
