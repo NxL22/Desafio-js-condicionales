@@ -18,11 +18,36 @@ body{
     align-items: center;
     height: 100vh;
     width: 30vh;
-    font-weight: 900;
+    font-weight: 800;
     color: aliceblue;
     background-color: black;
 }
 
 a:hover {
     cursor: pointer;
+
 }
+
+h1{
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 9px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    font-family:'Lucida Sans Unicode'
+}
+
+h2:hover {
+    color: red;
+}
+
+h1:hover {
+    color: rgb(50, 226, 65);
+}
+
+

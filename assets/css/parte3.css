@@ -1,32 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1{
-    color: wheat;
-    font-size: xx-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 900;
+h1 {
+  color: wheat;
+  font-size: xx-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
 }
 
-body{  
-    background-image: url(../img/boveda.webp);
-    background-size: cover;
+body {
+  background-image: url(../img/boveda.webp);
+  background-size: cover;
 }
 
 .principal {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-
-}  
-
-p{
-    color: red;
-    font-size: large;
-    font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
 }
+
+p {
+  color: red;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+#pin1,
+#pin2,
+#pin3 {
+  height: 4em;
+  width: 8em;
+}
+
+button {
+  height: 7em;
+  width: 15em;
+}
+
+select {
+    font-size: 2em;
+}
+
